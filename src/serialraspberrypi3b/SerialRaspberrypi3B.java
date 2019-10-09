@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package serialrasberryi3b;
+package serialraspberrypi3b;
 
 import com.pi4j.io.serial.Baud;
 import com.pi4j.io.serial.DataBits;
@@ -25,7 +25,7 @@ import java.util.Date;
  *
  * @author Desarrollo
  */
-public class SerialRasberryi3B {
+public class SerialRaspberrypi3B {
 
      /**
      * This example program supports the following optional command arguments/options:

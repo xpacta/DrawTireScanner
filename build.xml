@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="SerialRasberryi3B" default="default" basedir=".">
-    <description>Builds, tests, and runs the project SerialRasberryi3B.</description>
+<project name="SerialRaspberrypi3B" default="default" basedir=".">
+    <description>Builds, tests, and runs the project SerialRaspberrypi3B.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="SerialRasberryi3B-impl.jar">
+        <target name="run" depends="SerialRaspberrypi3B-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
